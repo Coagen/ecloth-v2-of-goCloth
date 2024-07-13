@@ -1,0 +1,122 @@
+.homeContainer {
+  margin: auto;
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  background-image: url("./public/pictures/5.png"),
+    url("./public/pictures/7.png"), url("./public/pictures/3.png"),
+    url("./public/pictures/1.png"), url("./public/pictures/11.png");
+  background-position: left, right, center, 20%, 80%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: drop-shadow(16px 16px 20px #444);
+  display: flex;
+  align-items: center;
+}
+
+.homeContent {
+  padding: 1rem;
+  margin-left: 5%;
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.brandHeading {
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.brandInfo {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #eee;
+}
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.userInput {
+  background-color: #eee;
+  color: #222;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 20px;
+  font-size: medium;
+  font-weight: 600;
+}
+.brandBtn {
+  background-color: rgb(56, 54, 25);
+  color: #eee;
+  padding: 15px 50px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  font-size: large;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+
+.brandBtn:hover {
+  background-color: rgba(56, 54, 25, 0.7);
+  color: #ddd;
+}
+
+@media (max-width: 650px) {
+  .homeContainer {
+    background-image: url("./public/pictures/5.png"),
+      url("./public/pictures/7.png"), url("./public/pictures/3.png");
+    background-position: left, right, center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: drop-shadow(16px 16px 20px #444);
+  }
+}
+@media (max-width: 400px) {
+  .homeContainer {
+    background-image: url("./public/pictures/5.png"),
+      url("./public/pictures/7.png");
+    background-position: left 0, right 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: drop-shadow(16px 16px 20px #444);
+  }
+}
+@media (max-width: 460px) {
+  .homeContainer {
+    justify-content: center;
+  }
+  .homeContent {
+    width: auto;
+  }
+  .brandBtn {
+    padding: 10px 30px;
+  }
+  .brandHeading {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 300px) {
+  .homeContainer {
+    background-image: url("./public/pictures/5.png"),
+      url("./public/pictures/7.png");
+    background-position: left, right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: drop-shadow(16px 16px 20px #444);
+  }
+}
+@media (max-width: 290px) {
+  .homeContainer {
+    background-image: url("./public/pictures/500.png"),
+      url("./public/pictures/7.png");
+    background-position: left, center, right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(16px 16px 20px #444);
+  }
+}

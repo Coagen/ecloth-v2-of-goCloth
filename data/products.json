@@ -1,0 +1,160 @@
+{
+  "products": [
+    {
+      "name": "Cotton Feel",
+      "product": "Men's Brown Kurta Shalwar",
+      "id": 101,
+      "price": 3000,
+      "stock": 10,
+      "colors": ["black", "blue", "brown"],
+      "brand": "XYZ",
+      "picture": {
+        "master": "/pictures/1.png",
+        "default": "/pictures/default.jpg"
+      }
+    },
+    {
+      "name": "Cotton Feel",
+      "product": "Men's Brown Kurta Shalwar",
+      "id": 102,
+      "price": 3000,
+      "stock": 0,
+      "colors": ["white", "black", "blue", "brown"],
+      "brand": "XYZ",
+      "picture": {
+        "master": "/pictures/2.png",
+        "default": "/pictures/default.jpg"
+      }
+    },
+    {
+      "name": "Cotton Feel",
+      "product": "Men's Brown Kurta Shalwar",
+      "id": 103,
+      "price": 3000,
+      "stock": 10,
+      "colors": ["black", "blue", "brown"],
+      "brand": "XYZ",
+      "picture": {
+        "master": "/pictures/3.png",
+        "default": "/pictures/default.jpg"
+      }
+    },
+    {
+      "name": "Cotton Feel",
+      "product": "Men's Brown Kurta Shalwar",
+      "id": 104,
+      "price": 3000,
+      "stock": 0,
+      "colors": ["black", "blue", "brown"],
+      "brand": "XYZ",
+      "picture": {
+        "master": "/pictures/4.png",
+        "default": "/pictures/default.jpg"
+      }
+    },
+    {
+      "name": "Cotton Feel",
+      "product": "Men's Dark Forest Kurta Shalwar",
+      "id": 105,
+      "price": 3000,
+      "stock": 10,
+      "colors": ["white", "black", "blue", "brown"],
+      "brand": "XYZ",
+      "picture": {
+        "master": "/pictures/5.png",
+        "default": "/pictures/default.jpg"
+      }
+    },
+    {
+      "name": "Cotton Feel",
+      "product": "Men's Dark Forest Kurta Shalwar",
+      "id": 106,
+      "price": 3000,
+      "stock": 0,
+      "colors": ["black", "blue", "brown"],
+      "brand": "XYZ",
+      "picture": {
+        "master": "/pictures/6.png",
+        "default": "/pictures/default.jpg"
+      }
+    },
+    {
+      "name": "Cotton Feel",
+      "product": "Men's Dark Forest Kurta Shalwar",
+      "id": 107,
+      "price": 3000,
+      "stock": 0,
+      "colors": ["white", "black", "blue", "brown"],
+      "brand": "XYZ",
+      "picture": {
+        "master": "/pictures/7.png",
+        "default": "/pictures/default.jpg"
+      }
+    },
+    {
+      "name": "Cotton Feel",
+      "product": "Men's Dark Forest Kurta Shalwar",
+      "id": 108,
+      "price": 3000,
+      "stock": 0,
+      "colors": ["white", "black", "blue", "brown"],
+      "brand": "XYZ",
+      "picture": {
+        "master": "/pictures/8.png",
+        "default": "/pictures/default.jpg"
+      }
+    },
+    {
+      "name": "Cotton Feel",
+      "product": "Men's Dark Forest Kurta Shalwar",
+      "id": 109,
+      "price": 3000,
+      "stock": 10,
+      "colors": ["white", "black", "blue", "brown"],
+      "brand": "XYZ",
+      "picture": {
+        "master": "/pictures/9.png",
+        "default": "/pictures/default.jpg"
+      }
+    },
+    {
+      "name": "Cotton Feel",
+      "product": "Men's Dark Forest Kurta Shalwar",
+      "id": 110,
+      "price": 3000,
+      "stock": 0,
+      "colors": ["black", "blue", "brown"],
+      "brand": "XYZ",
+      "picture": {
+        "master": "/pictures/10.png",
+        "default": "/pictures/default.jpg"
+      }
+    },
+    {
+      "name": "Cotton Feel",
+      "product": "Men's Dark Forest Kurta Shalwar",
+      "id": 111,
+      "price": 3000,
+      "stock": 10,
+      "colors": ["black", "blue", "brown"],
+      "brand": "XYZ",
+      "picture": {
+        "master": "/pictures/11.png",
+        "default": "/pictures/default.jpg"
+      }
+    },
+    {
+      "name": "Cotton Feel",
+      "product": "Men's Dark Forest Kurta Shalwar",
+      "id": 112,
+      "price": 3000,
+      "stock": 10,
+      "colors": ["black", "blue", "brown"],
+      "brand": "XYZ",
+      "picture": {
+        "master": "/pictures/12.png",
+        "default": "/pictures/default.jpg"
+      }
+    }
+  ]
+}

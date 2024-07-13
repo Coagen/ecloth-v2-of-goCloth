@@ -1,0 +1,113 @@
+.cart {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.cartHeading {
+  padding: 1rem 4rem 0 4rem;
+  font-size: x-large;
+  font-weight: 600;
+  color: red;
+}
+.cartLink {
+  padding: 0rem 4rem;
+  font-size: medium;
+  font-weight: 400;
+}
+.cartOverview {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.selectedProducts {
+  width: 100%;
+  height: 50dvh;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  overflow-y: scroll;
+}
+.cartItem {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: auto auto 1fr 1fr;
+  align-items: flex-end;
+  border-bottom: 1px solid #abab;
+}
+.image {
+  width: 10rem;
+  height: 13rem;
+}
+.cartItemColor {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100%;
+}
+
+.cartItemImage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgba(68, 68, 68, 0.577); /* new adition*/
+  background-color: rgba(170, 170, 170, 0.184); /* new adition*/
+  border-radius: 20px; /* new adition*/
+}
+.cartItemName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.cartItemPrice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.cartItemQuantity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.myPurchase {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.cartValue {
+  width: 100%;
+  height: 50dvh;
+  background-color: rgba(170, 170, 170, 0.2);
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.balance {
+  display: flex;
+  gap: 2rem;
+}
+.checkoutButton {
+  background-color: rgb(56, 54, 25);
+  color: #eee;
+  padding: 15px 50px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  font-size: large;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+
+.checkoutButton:hover {
+  background-color: rgba(56, 54, 25, 0.7);
+  color: #ddd;
+}
